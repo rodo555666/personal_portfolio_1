@@ -1,0 +1,19 @@
+.foto_mia{ 
+    height: 50%;
+    width: 50%;
+    border-radius: 100%;
+    margin: 0%;
+    padding: 0%;
+   
+  }
+  .nombre { 
+     font-size: 1rem;
+  }
+
+  @media screen and (min-width: 480px)  {
+    .nombre { 
+        
+        font-size: 3rem;
+     }
+   
+  }
