@@ -1,6 +1,6 @@
 .foto_mia{ 
-    height: 50%;
-    width: 50%;
+    height: 80%;
+    width: 80%;
     border-radius: 100%;
     margin: 0%;
     padding: 0%;
@@ -12,8 +12,8 @@
 
   @media screen and (min-width: 480px)  {
     .foto_mia { 
-        height: 70%;
-    width: 70%;
+        height: 50%;
+    width: 50%;
     }
 
 
