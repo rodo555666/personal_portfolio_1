@@ -23,3 +23,19 @@
      }
    
   }
+
+  .text { 
+    display: flex;
+    flex-direction: column;
+ 
+  }
+
+  .front { 
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  .con { 
+   display: flex;
+   flex-wrap: wrap;
+  }
