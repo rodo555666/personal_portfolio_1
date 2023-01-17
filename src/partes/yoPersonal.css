@@ -11,6 +11,12 @@
   }
 
   @media screen and (min-width: 480px)  {
+    .foto_mia { 
+        height: 70%;
+    width: 70%;
+    }
+
+
     .nombre { 
         
         font-size: 3rem;
