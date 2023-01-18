@@ -63,7 +63,9 @@
   .contacto { 
     display: flex;
     flex-wrap: wrap;
-    
+    place-content: center;
+    gap: 2rem;
+
   }
 
   a { 
