@@ -10,6 +10,13 @@
      font-size: 2rem;
   }
 
+  hr { 
+    border: 2px solid rgb(13, 20, 41);
+    color:  ;
+    height: auto;
+    width: auto;
+  }
+
   @media screen and (min-width: 480px)  {
     .foto_mia { 
       margin: auto;
@@ -106,10 +113,10 @@ margin-inline: 5%;
          }
 .otras_tecnologias { 
   display: flex;
-flex-direction: row;
+flex-direction: column;
 place-content: center;
 margin-top: 5%;
-gap: 5vh;
+
 font-weight: 600;
 font-size: 1.5rem;
 color: rgb(60, 160, 248);

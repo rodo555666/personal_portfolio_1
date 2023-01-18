@@ -23,12 +23,15 @@ const YoPersonal = () => {
       <a href="https://www.youtube.com/channel/UCFNx2KwndUdqtqxlgLPujjA"  target="_blank"><i className="fa-brands fa-youtube"></i></a>
       <a href="https://github.com/rodo555666"  target="_blank"><i className="fa-brands fa-square-github"></i></a>
       </section>
+      <hr />
       <section className='idiomas'> 
        <h3>Ingles</h3>
       <h3>Español</h3>
       <h3>Chino</h3>
       </section>
+    
       <h2 className='experiencia'>+3 años desarrollando</h2>
+      <hr />
       <article className='skills'> 
       <i className="fa-brands fa-square-js"></i>
       <i className="fa-brands fa-html5"></i>
@@ -38,6 +41,7 @@ const YoPersonal = () => {
       <i className="fa-brands fa-python"></i>
    
       </article>
+      
       <article className='otras_tecnologias'>
       <p>Ruby</p>
       <p>Blender</p>
