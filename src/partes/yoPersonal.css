@@ -33,12 +33,84 @@
   }
 
   .front { 
+    color: rgb(44, 116, 179);
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.5em;
   }
 
   .con { 
    display: flex;
    align-items: center;
    flex-wrap: wrap;
+   margin-top: 10%;
   }
+
+  a { 
+display: inline-block;
+margin-top: 10%;
+margin-inline: 5%;
+
+  color: rgb(44, 116, 179);;
+    font-size: 3rem;
+    border: none;
+    
+  }
+
+  a:hover { 
+    color: rgb(65, 156, 235);;
+  }
+
+  .idiomas { 
+    color: rgb(60, 160, 248);
+    font-size: 1.3rem;
+    display: flex;
+    place-content: center;
+    gap: 10% ;
+    margin-top: 10%;
+  }
+
+  .idiomas h3:hover { 
+    font-size: 2rem;
+  
+  }
+  .experiencia { 
+    margin-top: 10%;
+  }
+
+  .skills { 
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+   
+    margin-top: 10%;
+   margin-inline: 10%;
+    gap: 5%;
+  }
+.skills i { 
+ font-size: 4rem;
+}
+  .skills :nth-child(1) { 
+ color: yellow;
+  }
+  .skills :nth-child(2) { 
+    color: orange;
+     }
+  .skills :nth-child(3) { 
+    color: rgb(116, 161, 209);
+   }
+   .skills :nth-child(4) { 
+    color: rgb(3, 83, 118);
+     }
+     .skills :nth-child(5) { 
+      color: rgb(4, 160, 4);
+       }
+       .skills :nth-child(6) { 
+        color: rgb(0, 89, 255);
+         }
+.otras_tecnologias { 
+  display: flex;
+flex-direction: column;
+font-weight: 600;
+font-size: 1.5rem;
+color: rgb(60, 160, 248);
+}
