@@ -109,7 +109,10 @@ margin-inline: 5%;
          }
 .otras_tecnologias { 
   display: flex;
-flex-direction: column;
+flex-direction: row;
+place-content: center;
+margin-top: 5%;
+gap: 5vh;
 font-weight: 600;
 font-size: 1.5rem;
 color: rgb(60, 160, 248);
