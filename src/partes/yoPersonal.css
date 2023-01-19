@@ -1,5 +1,6 @@
 :root  { 
- --color_azul: rgb(44, 116, 179);;
+ --color_azul: rgb(44, 116, 179);
+ 
 }
 
 
@@ -59,6 +60,7 @@
     font-size: 2.5em;
   }
 
+  
   .con { 
    display: flex;
    align-items: center;
@@ -99,16 +101,36 @@ color: var(--color_azul) ;
 
   .idiomas { 
     color: var(--color_azul) ;
-    font-size: 1.3rem;
+    
     display: flex;
     place-content: center;
     gap: 10% ;
     margin-top: 5%;
   }
 
+  .con_idioma { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    background-color: rgb(14, 21, 46);
+    height: 100px;
+    width: 100px;
+    color: var(--color_azul);
+  }
+  
+ 
+
  
   .experiencia { 
     margin-top: 5%;
+    
+  }
+
+  .años {
+    
+    color: var(--color_azul);
   }
 
   .skills { 
@@ -125,22 +147,22 @@ color: var(--color_azul) ;
  margin: 2%;
 }
   .skills :nth-child(1) { 
- color: yellow;
+ color: rgb(240, 219, 79);
   }
   .skills :nth-child(2) { 
-    color: orange;
+    color: rgb(240, 101, 41);
      }
   .skills :nth-child(3) { 
-    color: rgb(116, 161, 209);
+    color: rgb(102, 211, 250);
    }
    .skills :nth-child(4) { 
-    color: rgb(3, 83, 118);
+    color: rgb(97, 219, 251);
      }
      .skills :nth-child(5) { 
-      color: rgb(4, 160, 4);
+      color: rgb(60, 135, 58);
        }
        .skills :nth-child(6) { 
-        color: rgb(0, 89, 255);
+        color: rgb(75, 139, 190);
          }
 .otras_tecnologias { 
   display: flex;

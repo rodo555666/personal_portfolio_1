@@ -9,13 +9,14 @@ const YoPersonal = () => {
 
   return (
     <><div> </div>
+    <header></header>
     <div className='con'>
       <img className='foto_mia' src="yo.jpg" alt="fotografia" />
    <div className='text'> 
     <h2 className='bienvenido'>Bienvenido</h2>
     <h2>soy</h2>
     <h1 className='nombre'> Rodolfo A. Cabrera</h1>
-    <h2 className='front'>Frontend Development</h2>
+    <h2 className='front'> Frontend Development</h2>
     <h2 className='say_me'>pero puedes decirme <strong className='apodo'>Rodo!</strong></h2>
     </div>
    
@@ -28,12 +29,12 @@ const YoPersonal = () => {
       </section>
       <hr />
       <section className='idiomas'> 
-       <h3>Ingles</h3>
-      <h3>Español</h3>
-      <h3>Chino</h3>
+      <div className='con_idioma'><h3>Ingles</h3></div> 
+      <div className='con_idioma'> <h3>Español</h3></div> 
+      <div className='con_idioma'> <h3>Chino</h3></div> 
       </section>
     
-      <h2 className='experiencia'>+3 años desarrollando</h2>
+      <h2 className='experiencia'> <strong className='años'>+3</strong> Años desarrollando</h2>
       <hr />
       <article className='skills'> 
       <i className="fa-brands fa-square-js"></i>
