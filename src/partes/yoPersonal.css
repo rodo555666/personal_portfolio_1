@@ -59,6 +59,14 @@
    flex-wrap: wrap;
    margin-top: 10%;
   }
+  .say_me { 
+    color: var(--color_azul);
+  }
+
+  .apodo { 
+    font-size: 2rem;
+   color: aliceblue;
+  }
 
   .contacto { 
     display: flex;
@@ -70,7 +78,7 @@
 
   a { 
 display: inline-block;
-margin-top: 10%;
+margin-top: 5%;
 margin-inline: 5%;
 
 color: var(--color_azul) ;
@@ -89,12 +97,12 @@ color: var(--color_azul) ;
     display: flex;
     place-content: center;
     gap: 10% ;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
  
   .experiencia { 
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .skills { 
@@ -108,6 +116,7 @@ color: var(--color_azul) ;
   }
 .skills i { 
  font-size: 4rem;
+ margin: 2%;
 }
   .skills :nth-child(1) { 
  color: yellow;
@@ -136,4 +145,16 @@ margin-top: 5%;
 font-weight: 600;
 font-size: 1.5rem;
 color: var(--color_azul) ;
+}
+
+.proyectos { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.repro img { 
+  border-radius: 10px;
+  height: 400px;
+  width: auto;
 }

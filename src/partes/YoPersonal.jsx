@@ -12,8 +12,10 @@ const YoPersonal = () => {
     <div className='con'>
       <img className='foto_mia' src="yo.jpg" alt="fotografia" />
    <div className='text'> 
+    <h2>Bienvenido soy</h2>
     <h1 className='nombre'> Rodolfo A. Cabrera</h1>
     <h2 className='front'>Frontend Development</h2>
+    <h2 className='say_me'>pero puedes decirme <strong className='apodo'>Rodo!</strong></h2>
     </div>
    
     </div>
@@ -51,10 +53,17 @@ const YoPersonal = () => {
       <p>Construct</p>
       <p>Photoshop</p>
       <p>Krita</p>
-
-
-    
     </article>
+
+    <section className='proyectos'> 
+      <a className='repro' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'> <img src="reproductor.jpg" alt="prueba" /> </a>
+      <a className='repro' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'> <img src="reproductor.jpg" alt="" /> </a>
+      <a className='repro' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'> <img src="reproductor.jpg" alt="" /> </a>
+      <a className='repro' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'> <img src="reproductor.jpg" alt="" /> </a>
+      <a className='repro' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'> <img src="reproductor.jpg" alt="" /> </a>
+      <a className='repro' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'> <img src="reproductor.jpg" alt="" /> </a>
+      
+    </section>
       
     
     </>
