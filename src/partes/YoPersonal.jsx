@@ -17,7 +17,7 @@ const YoPersonal = () => {
     <h2>soy</h2>
     <h1 className='nombre'> Rodolfo A. Cabrera</h1>
     <h2 className='front'> Frontend Development</h2>
-    <h2 className='say_me'>pero puedes decirme <strong className='apodo'>Rodo!</strong></h2>
+    <h2 className='say_me'>pero todos me llaman <strong className='apodo'>Rodo!</strong></h2>
     </div>
    
     </div>
@@ -34,7 +34,7 @@ const YoPersonal = () => {
       <div className='con_idioma'> <h3>Chino</h3></div> 
       </section>
     
-      <h2 className='experiencia'> <strong className='años'>+3</strong> Años desarrollando</h2>
+      <h2 className='experiencia'> <strong className='años'>+3</strong> Años desarrollando <strong className='años'>soluciones y productos</strong></h2>
       <hr />
       <article className='skills'> 
       <i className="fa-brands fa-square-js"></i>
@@ -64,9 +64,9 @@ const YoPersonal = () => {
      <a className='link' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'>
       <p className='proyecto_nombre'>reproductor</p> </a></div>
       
-    
+  
     </section>
-      
+        <h2>" Hoy estás haciendo lo que ayer no podías" .</h2>
     
     </>
   )
