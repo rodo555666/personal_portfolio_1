@@ -9,7 +9,7 @@ const YoPersonal = () => {
 
   return (
     <><div> </div>
-    <header></header>
+    <header className='nav'>Descargar cv</header>
     <div className='con'>
       <img className='foto_mia' src="yo.jpg" alt="fotografia" />
    <div className='text'> 

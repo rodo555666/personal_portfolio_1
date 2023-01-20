@@ -5,7 +5,15 @@
 }
 
 
-
+.nav { 
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100px;
+width: 100%;
+background-color: var(--azul_oscuro);
+margin: auto;
+}
 
 
 .foto_mia{ 
@@ -20,6 +28,7 @@
   }
   .bienvenido {
     font-size: 2rem;
+    color: var(--color_azul);
   }
   .nombre { 
      font-size: 2rem;
