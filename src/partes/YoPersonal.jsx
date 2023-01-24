@@ -8,8 +8,8 @@ const YoPersonal = () => {
 
 
   return (
-    <><div> </div>
-    <header className='nav'>Descargar cv</header>
+    <><div className='portfolio'>
+ 
     <div className='con'>
       <img className='foto_mia' src="yo.jpg" alt="fotografia" />
    <div className='text'> 
@@ -61,13 +61,22 @@ const YoPersonal = () => {
 
     <div className='trabajo' >
       <img src="reproductor.jpg" alt="prueba" />
+      <video className='video' src="dsf"></video>
      <a className='link' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'>
-      <p className='proyecto_nombre'>reproductor</p> </a></div>
+      <p className='proyecto_nombre'>reproductor</p> </a>
+      <ul className='descripcion'>
+        App de musica
+        <li>consume api de deezer</li>
+        <li>responsivo</li>
+        <li>funcion lista de favoritos</li>
+        <li>interfaz amigable</li>
+      </ul>
+      </div>
       
   
     </section>
         <h2>" Hoy estás haciendo lo que ayer no podías" .</h2>
-    
+     </div>
     </>
   )
 }

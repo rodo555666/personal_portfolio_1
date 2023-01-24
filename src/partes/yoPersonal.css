@@ -3,17 +3,30 @@
   --azul_oscuro: rgb(14, 21, 46);
  
 }
-
-
-.nav { 
-  display: flex;
- justify-content: center;
- align-items: center;
- height: 100px;
-width: 100%;
-background-color: var(--azul_oscuro);
-margin: auto;
+.portfolio { 
+  
+ margin-left: 10%;
+   
 }
+.nav {
+  display: flex;
+  position: fixed;
+   place-items: center;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10%;
+    padding: 0;
+    background-color: var(--azul_oscuro);
+}
+.hed {
+  background-color: brown;
+  height: 10px;
+  width: 100%;
+}
+
+
+
 
 
 .foto_mia{ 
@@ -206,38 +219,51 @@ box-shadow: 10px 10px 0px var(--color_azul);
 .trabajo {
   list-style: none;
   display: grid;
- grid-template-columns: 1fr;
- grid-template-rows: 1fr 1fr 1fr ;
-  height: 500px;
-  width: 200px;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+  height: auto;
+  width: auto;
   background-color: var(--azul_oscuro);
+  margin: auto;
 }
 
 .trabajo img { 
   
   border-radius: 10px;
   height: 200px;
-  width: auto;
-  grid-row: 2;
+  width: 200px;
+  grid-row: 1;
   grid-column: 1;
   margin: auto;
  
 }
 
-.trabajo a { 
-  grid-row: 3;
-  grid-column: 1;
+.link { 
+  grid-row: 2;
+  grid-column: 2;
+  margin: auto;
 }
 
+.video {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: var(--color_azul);
+  height: 50%;
+  width: auto;
+}
 
+.descripcion { 
+  grid-column: 1;
+  grid-row: 2;
+  background-color: rgb(23, 24, 24);
+  text-align: center;
+}
 
 
 .proyecto_nombre{
   color: rgb(204, 209, 209);
   font-size: 2rem; 
-grid-row: 3;
-grid-column: 1;
-margin: auto;
-border-radius: 10px;
+margin: 0;
+
 background: linear-gradient( rgb(27, 41, 87),  rgb(11, 17, 36)) ;
 }
