@@ -26,16 +26,16 @@ const YoPersonal = () => {
     <h2>soy</h2>
     <h1 className='nombre'> Rodolfo A. Cabrera</h1>
     <h2 className='text_azul'> Frontend Development /&gt;</h2>
-    
-    </div>
-   
-    </div>
-   <section className='contacto'> 
+    <section className='contacto'> 
       <a href=" mailto:rodo555666@gmail.com"  target="_blank"> <i className="fa-solid fa-envelope"></i> </a>
       <a href="https://www.linkedin.com/in/rodolfo-a-cabrera-33649a208/"  target="_blank"><i className="fa-brands fa-linkedin"></i></a>
       <a href="https://www.youtube.com/channel/UCFNx2KwndUdqtqxlgLPujjA"  target="_blank"><i className="fa-brands fa-youtube"></i></a>
       <a href="https://github.com/rodo555666"  target="_blank"><i className="fa-brands fa-square-github"></i></a>
       </section>
+    </div>
+   
+    </div>
+   
     
       <section className='idiomas'> 
       <div className='con_idioma'><h3>Ingles</h3></div> 
@@ -45,22 +45,23 @@ const YoPersonal = () => {
     
       <h2 id='conocimiento'className='experiencia'> <strong className='años'>+3</strong> Años desarrollando <strong className='años'>soluciones y productos</strong></h2>
     
+      
+       <section className='skills'>
+        <div><i className="fa-brands fa-html5"></i></div>
+        <div><i className="fa-brands fa-css3-alt"></i></div>
+        <div><i class="fa-brands fa-js"></i></div>
+        <div><i class="fa-brands fa-react"></i></div>
+        <div><i class="fa-brands fa-python"></i></div>
+       </section>
 
-      <article  className='skills'> 
-      <img src="html.png" alt="html" />
-      <img src="css.png" alt="css" />
-      <img src="js.png" alt="js" />
-      <img src="react.png" alt="react" />
-      <img src="python.png" alt="python" />
-      <img src="ruby.png" alt="ruby" />
-      </article>
+
+
       
       <ul className='habilidades'>
-        <li><i className="fa-solid fa-mobile"></i><p>Responsive</p> </li>
-        <li><i class="fa-solid fa-fingerprint"></i><p>friendly interfaces</p></li>
-        <li><i class="fa-brands fa-figma"></i><p>Design</p> </li>
-        <li><i class="fa-solid fa-server"></i><p>Api consumption</p></li>
-         
+        <li><i className="fa-solid fa-mobile"></i><p>Responsive</p></li>
+        <li><i className="fa-solid fa-fingerprint"></i><p>friendly interfaces</p></li>
+        <li><i className="fa-brands fa-figma"></i><p>Design</p> </li>
+        <li><i className="fa-solid fa-server"></i><p>Api consumption</p></li>
       </ul>
 
    

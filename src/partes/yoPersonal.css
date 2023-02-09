@@ -24,14 +24,20 @@ header {
  
   padding: auto;
   background-color: var(--azul_oscuro);
+  background: linear-gradient(rgb(1, 6, 19),rgb(4, 16, 53));
+   
  
 }
 
 header a { display: flex;
   flex-direction: column;
   margin: auto;
-  font-size: 1.5rem;
+  place-content: center;
+  font-size: 1.2rem;
    scroll-behavior: smooth;
+   height: 3rem;
+   width: 3rem;
+   border: 2px solid var(--color_azul);
 }
 
 header button {
@@ -123,8 +129,22 @@ header button {
   }
 
   .contacto a {
+    
+    font-size: 2rem;
+   height: 50px;
+   width: 50px;
+    background: linear-gradient(rgb(3, 82, 167), rgb(7, 9, 10));
+ text-shadow: 5px 5px 10px black;
      color: aliceblue;
   }
+
+.contacto a i{
+  margin: auto;
+}
+
+
+
+
 
   a {
      display: flex;
@@ -155,11 +175,10 @@ header button {
     justify-content: center;
     text-align: center;
     margin: 5%;
-    
-  background-color:var(--gris_color);
     height: 80px;
     width: 80px;
     color: aliceblue;
+    border: 2px solid aliceblue;
 
    
   }
@@ -183,23 +202,32 @@ header button {
     flex-wrap: wrap;
     place-content: center;
     margin-top: 10%;
-   margin-inline: 10%;
-  
-    gap: 5%;
+    margin: auto;
+    
   }
-.skills img { 
- height: 100px;
- width: auto;
- margin: 2%;
- 
+
+.skills div {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 150px;
+ background: linear-gradient(rgb(3, 82, 167),rgb(7, 9, 10));
+  color: aliceblue;
+  font-size: 4rem;
+  margin: auto;
+  padding: 1%;
 }
- 
+
+.skills i { 
+  text-shadow: 5px 5px 10px black;
+  margin: auto;
+}
 
 .habilidades {
   display: flex;
   flex-wrap: wrap;
   place-content: center;
-  gap: 2rem;
+  
   margin: auto;
   font-size: 1.5rem;
 }
@@ -211,16 +239,18 @@ header button {
   text-align: center;
   height: 150px;
   width: 150px;
-  padding: .5%;
   margin: 2%;
 color: aliceblue;
- background-color: rgb(49, 62, 75);
+background: linear-gradient(rgb(49, 62, 75), rgb(14, 18, 22));
+ 
 }
 .habilidades li i {
-  font-size: 3rem;
+  text-shadow: 5px 5px 10px black;
+  font-size: 2rem;
   margin-top: 20%;
 }
 .habilidades li p {
+  font-size: 1rem;
   text-align: center;
   margin-top: 10%;
 }
