@@ -67,11 +67,17 @@ const YoPersonal = () => {
    
 
     <section id='portafolio' className='proyectos'> 
+
     <div className='trabajo' >
-      <img src="reproductor.jpg" alt="prueba" />
-      <video className='video' src="dsf"></video>
-     <a className='link' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'>
-      <p className='proyecto_nombre'>reproductor</p> </a>
+      <section className='pagina'><img className='img_largo' src="reproductor.jpg" alt="prueba" />
+      <img className='img_corto' src="reproductor.jpg" alt="prueba" />
+      <img className='img_corto' src="reproductor.jpg" alt="prueba" />
+      <img className='img_corto' src="reproductor.jpg" alt="prueba" />
+        <a className='link' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'>
+        <p className='proyecto_nombre'>reproductor</p>
+       </a>
+       </section>
+
       <ul className='descripcion'>
         App de musica
         <li>consume api de deezer</li>
@@ -81,19 +87,6 @@ const YoPersonal = () => {
       </ul>
       </div>
 
-      <div className='trabajo' >
-      <img src="reproductor.jpg" alt="prueba" />
-      <video className='video' src="dsf"></video>
-     <a className='link' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'>
-      <p className='proyecto_nombre'>reproductor</p> </a>
-      <ul className='descripcion'>
-        App de musica
-        <li>consume api de deezer</li>
-        <li>responsivo</li>
-        <li>funcion lista de favoritos</li>
-        <li>interfaz amigable</li>
-      </ul>
-      </div>
       
   
     </section>
