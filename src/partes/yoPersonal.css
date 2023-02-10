@@ -78,6 +78,8 @@ header button:hover {
 .foto_mia{ 
     height: 80%;
     width: 80%;
+    min-width: 50%;
+    min-height: 50%;
     border-radius: 100%;
     margin: auto;
     padding: 0%;
@@ -110,7 +112,7 @@ header button:hover {
       margin: auto;
       padding: auto;
         height: 50%;
-    width: 50%;
+        width: 50%;
   
     }
 
@@ -214,16 +216,44 @@ header button:hover {
  
 
  
-  .experiencia { 
-    font-size: 2rem;
+  .experiencia {  display: flex;
+    text-align: center;
+    flex-direction: row;
+    place-content: center;
+    font-size: 1.5rem;
     margin-top: 5%;
+    height: 4rem;
+    max-width: 300px;
+    margin: auto;
     
   }
+.experiencia div { 
+    display: flex;
+    place-content: center;
+    font-size: 1.25rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100%;
+  border: 2px solid aliceblue; 
+   margin:auto;
+   margin-right: 1%;
+   transition: .2s;
+}
+.experiencia div:hover {
+  background-color: aliceblue;
+  color: rgb(5, 8, 17);
+}
 
-  .años {
-    
-    color: var(--color_azul);
-  }
+
+.experiencia div i{ 
+  margin: auto;
+}
+ .experiencia p {
+   margin: auto;
+ margin-left: 1%;
+ }
+
+
 
   .skills { 
     display: flex;

@@ -23,7 +23,7 @@ const YoPersonal = () => {
       <img className='foto_mia' src="yo.jpg" alt="fotografia" />
    <div className='text'> 
     <h2 className='text_azul'>&lt; Bienvenido</h2>
-    <h2>soy</h2>
+    <h2 className='text_azul'>soy</h2>
     <h1 className='nombre'> Rodolfo A. Cabrera</h1>
     <h2 className='text_azul'> Frontend Development /&gt;</h2>
     <section className='contacto'> 
@@ -43,7 +43,7 @@ const YoPersonal = () => {
       <div className='con_idioma'> <h3>Chino</h3></div> 
       </section>
     
-      <h2 id='conocimiento'className='experiencia'> <strong className='años'>+3</strong> Años desarrollando <strong className='años'>soluciones y productos</strong></h2>
+      <section id='conocimiento'className='experiencia'> <div><i className="fa-regular fa-lightbulb"></i></div> <p>conocimiento</p>   </section>
     
       
        <section className='skills'>
@@ -67,7 +67,7 @@ const YoPersonal = () => {
    
 
     <section id='portafolio' className='proyectos'> 
-
+    <section id='conocimiento'className='experiencia'> <div><i className="fa-solid fa-briefcase"></i></div> <p>Portafolio</p>   </section>
     <div className='trabajo' >
       <section className='pagina'><img className='img_largo' src="reproductor.jpg" alt="prueba" />
       <img className='img_corto' src="reproductor.jpg" alt="prueba" />
