@@ -10,6 +10,7 @@ margin: 0;
 }
 
 header {
+  z-index: 5;
   display: flex;
   place-content: center;
   position: fixed;
@@ -21,15 +22,16 @@ header {
   width: 100%;
   margin: auto;
   padding: auto;
-  background-color: var(--azul_oscuro);
-  background: linear-gradient(to right,rgb(1, 6, 19),rgb(8, 37, 123));
+  background-color: rgb(5, 8, 17);
+  
+  
 }
 
 header section { 
   display: flex;
   flex-direction: row;
  margin:auto ;
- gap: 4rem;
+ gap: 1.5rem;
  
 
 width: auto ;
@@ -45,30 +47,35 @@ header a { display: flex;
    scroll-behavior: smooth;
    height: 3rem;
    width: 3rem;
-   border: 2px solid var(--color_azul);
+   color: var(--azul_oscuro);
+  
+    background: linear-gradient(aliceblue, rgb(120, 120, 120));
+   border-radius: 50%;
   transition: .2s;
+ 
 }
 
 
 header a:hover {
-  border: 2px solid var(--azul_oscuro);
+ background: linear-gradient(aliceblue, aliceblue);
   background-color: aliceblue;
+  border-radius: 10%;
   color: var(--azul_oscuro);
 }
 
-
 header button {
+  border-radius: 10px;
   font-size: 1.5rem;
   border: none;
   margin: auto;
   height: 3rem;
   width: 5rem;
-  background-color: var(--color_azul);
+  background: linear-gradient(aliceblue, rgb(120, 120, 120));
  
 }
 header button:hover { 
-  border: 2px solid var(--azul_oscuro);
-    background-color: aliceblue;
+  
+      background: linear-gradient(aliceblue, aliceblue);
     color: var(--azul_oscuro);
 }
 
@@ -82,29 +89,32 @@ header button:hover {
 
 
 .foto_mia{ 
-    height: 80%;
-    width: 80%;
-    min-width: 50%;
-    min-height: 50%;
+    height: 60%;
+    width: 60%;
+    min-width: 40%;
+    min-height: 40%;
     border-radius: 100%;
     margin: auto;
     padding: 0%;
   }
-
+h2 { 
+  margin: 0;
+}
 
 /* H2 color azul */ 
  .text_azul {
-   font-size: 2.5rem;
+   font-size: 2.3rem;
    /* background: linear-gradient(rgb(3, 82, 167), rgb(56, 2, 60)); ;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
    */
-  background: linear-gradient(to right, rgb(3, 96, 218), rgb(227, 4, 243));
+  background: linear-gradient( 45deg, rgb(3, 96, 218), rgb(227, 4, 243) ,rgb(3, 96, 218),rgb(227, 4, 243));
     -webkit-background-clip: text;
     background-clip: text;
+    background-size: 300% 300%;
     color: transparent;
-   
+  animation: backcolor 4s ease-in-out infinite;
   }
   
   .nombre { 
@@ -112,20 +122,29 @@ header button:hover {
   }
 
  
+    @keyframes backcolor {
+      0% {
+        background-position: 0% 50% ;
+      }
+  
+      50% { 
+        background-position: 100% 50%;
+      }
+  
+      100% { background-position: 50% 50%;
+         
+      }
+    }
 
   @media screen and (min-width: 480px)  {
     .foto_mia { 
       margin: auto;
       padding: auto;
-        height: 50%;
-        width: 50%;
-  
-    }
-
+        height: 40%;
+        width: 40%;}
 
     .nombre { 
-        font-size: 3rem;
-     }
+        font-size: 3rem;}
    
   }
 
@@ -151,7 +170,7 @@ header button:hover {
     display: flex;
     flex-wrap: wrap;
     place-content: center;
-    gap: 2rem;
+    gap: 1rem;
    
   }
 
@@ -201,8 +220,8 @@ header button:hover {
     display: flex;
     place-content: center;
     flex-wrap: wrap;
-    gap: 10% ;
-    margin-top: 5%;
+    gap: 2% ;
+    margin-top: 1%;
   }
 
   .con_idioma { 
@@ -215,17 +234,19 @@ header button:hover {
     width: 80px;
     color: aliceblue;
     border: 2px solid aliceblue;
-
+  
    
   }
   
  #conocimiento {
-  margin-top: 10%;
+  margin-top: 2%;
  height: auto;
  width: auto;
-  
- }
 
+  /*border-radius: 10px;
+   border: 1px solid aliceblue; */
+ }
+ 
  
   .experiencia {  display: flex;
     text-align: center;
@@ -267,27 +288,53 @@ header button:hover {
 
 
   .skills { 
+
     display: flex;
     flex-wrap: wrap;
     place-content: center;
     margin-top: 10%;
     margin: auto;
+    margin-bottom: 5%;
     
   }
 
+     
+/*   
+     .skills:after {
+       margin: auto;
+      content: "conocimiento"; 
+         color: rgb(5, 8, 17);
+          font-size: 10rem;
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: rgb(255, 255, 255);;
+       position: absolute;
+       
+       top: 0;
+       left: 0;
+       z-index: -1;
+     } */
 .skills div {
   display: flex;
   flex-direction: column;
-  height: 150px;
-  width: 150px;
+  font-size:3.5rem;
+  height:90px ;
+  width: 90px;
  background: linear-gradient(rgb(3, 82, 167),rgb(56, 2, 60));
   color: aliceblue;
-  font-size: 4rem;
   margin: 1%;
   padding: 1%;
+
+ 
+}
+
+.skills div p { 
+  font-size: 1rem;
+  margin: auto;
+  text-shadow: 2px 5px 10px rgb(28, 1, 23), -1px -4px 10px rgb(2, 100, 205);
 }
 
 .skills i { 
+
   text-shadow: 2px 5px 10px rgb(7, 9, 10),-1px -4px 10px rgb(2, 100, 205);
   margin: auto;
 }
@@ -319,6 +366,16 @@ background: linear-gradient(rgb(3, 82, 167),rgb(5, 8, 17));
   font-size: 2rem;
   margin-top: 20%;
 }
+
+.img_tec {
+  filter:drop-shadow( 5px 5px 5px black)
+  drop-shadow(-1px -5px 5px rgb(3, 117, 239));
+  height: 2rem;
+  width: auto;
+  margin-top: 20%;
+  margin: auto;
+}
+
 .habilidades li p {
   font-size: 1rem;
   text-align: center;
@@ -346,7 +403,7 @@ background: linear-gradient(rgb(3, 82, 167),rgb(5, 8, 17));
  
 }
 .img_largo {
-  height: 200px;
+  height: min(200px,100%) ;
   width: 100%;
   margin: auto;
 }
@@ -377,3 +434,43 @@ background: linear-gradient(rgb(3, 82, 167),rgb(5, 8, 17));
   font-size: 2rem; 
   margin: auto;
 }
+
+footer {
+  z-index: 5;
+  position: absolute;
+  left: 0;
+  bottom: 100;
+ 
+  display: flex;
+  place-content: center;
+  height: auto;
+  width: 100%;
+  margin: auto;
+ 
+  background-color: rgb(5, 8, 17);
+}
+
+
+
+ footer a {
+   font-size: 2rem;
+   height: 50px;
+   width: 50px;
+   background: linear-gradient(rgb(3, 82, 167), rgb(56, 2, 60));
+   text-shadow: 2px 5px 10px rgb(7, 9, 10), -1px -4px 10px rgb(2, 100, 205);
+   color: aliceblue;
+   border-radius: 100%;
+   transition: .2s color 0s;
+ }
+
+ footer a:hover {
+   text-shadow: 0px 0px 0px aliceblue;
+   background: linear-gradient(aliceblue, aliceblue);
+   color: var(--azul_oscuro);
+   border-radius: 10%;
+ }
+
+
+ footer a i {
+   margin: auto;
+ }
