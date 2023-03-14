@@ -16,7 +16,7 @@ const YoPersonal = () => {
       <section>
        <a href=""><i className="fa-solid fa-language"></i></a> 
       <a href="#conocimiento"><i className="fa-regular fa-lightbulb"></i><i className="fa-solid fa-angle-down"></i></a>
-      <a href="#portafolio"><i className="fa-solid fa-briefcase"></i><i className="fa-solid fa-angle-down"></i></a> 
+      {/* <a href="#portafolio"><i className="fa-solid fa-briefcase"></i><i className="fa-solid fa-angle-down"></i></a>  */}
       <button><i className="fa-solid fa-file-arrow-down"></i> cv</button></section>
       </header>
     
@@ -65,7 +65,7 @@ const YoPersonal = () => {
 
    
 
-    <section id='portafolio' className='proyectos'> 
+    {/* <section id='portafolio' className='proyectos'> 
 
     <section className='experiencia'> <div><i className="fa-solid fa-briefcase"></i></div> <p>Portafolio</p>   </section>
 
@@ -90,7 +90,7 @@ const YoPersonal = () => {
 
       
   
-    </section>
+    </section> */}
        <footer>
       <a href="https://mail.google.com/mail/u/0/?tab=wm#inbox?compose=GTvVlcSPFdTFsRdZrnJRzGpxjXFqtchZtVjnpPVQCKmnjRMzCdXBhwqfdFpncQknSSRDwBvrWzfMV"  target="_blank"><i className="fa-solid fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/rodolfo-a-cabrera-33649a208/"  target="_blank"><i className="fa-brands fa-linkedin"></i></a>
