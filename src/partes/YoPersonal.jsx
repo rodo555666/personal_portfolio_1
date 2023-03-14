@@ -4,7 +4,7 @@ import './yoPersonal.css'
 
 const YoPersonal = () => {
 
-
+//poner los estilos en el css y cambiar color con una variable por numero de clase clase=talcosa1...2...3...etc
 
 
 
@@ -16,8 +16,8 @@ const YoPersonal = () => {
       <section>
        <a href=""><i className="fa-solid fa-language"></i></a> 
       <a href="#conocimiento"><i className="fa-regular fa-lightbulb"></i><i className="fa-solid fa-angle-down"></i></a>
-      {/* <a href="#portafolio"><i className="fa-solid fa-briefcase"></i><i className="fa-solid fa-angle-down"></i></a>  */}
-      {/* <button><i className="fa-solid fa-file-arrow-down"></i> cv</button> */}
+      <a href="#portafolio"><i className="fa-solid fa-briefcase"></i><i className="fa-solid fa-angle-down"></i></a> 
+      <button><i className="fa-solid fa-file-arrow-down"></i> cv</button>
       </section>
       </header>
     
@@ -66,32 +66,71 @@ const YoPersonal = () => {
 
    
 
-    {/* <section id='portafolio' className='proyectos'> 
+    <section id='portafolio' className='proyectos'> 
+    <section className='experiencia'><div><i className="fa-solid fa-briefcase"></i></div><p>Portafolio</p>   </section>
 
-    <section className='experiencia'> <div><i className="fa-solid fa-briefcase"></i></div> <p>Portafolio</p>   </section>
-
+    {/*--------- TRABAJO 1--------*/}
     <div className='trabajo' >
-      <section className='pagina'><img className='img_largo' src="reproductor.jpg" alt="prueba" />
+     <section className='links_info'>
+     {/*--------- Nombre del proyecto ---------*/}
+      <p className='proyecto_nombre'>Reproductor <i className="fa-solid fa-briefcase"></i></p> 
+     {/*--------- Deploy ---------*/}
+    <a className='link' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'><i className="fa-solid fa-eye"></i> </a>
+    {/*--------- Deploy ---------*/}
+    <a className='link' href="https://github.com/rodo555666"  target="_blank"><i className="fa-brands fa-square-github"></i></a>
+    </section>
+      <article className='carpeta'>
+      <section className='pagina'>
+      <img className='img_largo' src="re_largo.jpg" alt="prueba" />
+      {/*--------- DETAILS---------*/}
+      <details id='det' > <summary></summary>
       <img className='img_corto' src="reproductor.jpg" alt="prueba" />
       <img className='img_corto' src="reproductor.jpg" alt="prueba" />
       <img className='img_corto' src="reproductor.jpg" alt="prueba" />
-        <a className='link' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'>
-        <p className='proyecto_nombre'>reproductor</p>
-       </a>
-       </section>
-
-      <ul className='descripcion'>
-        App de musica
-        <li>consume api de deezer</li>
-        <li>responsivo</li>
-        <li>funcion lista de favoritos</li>
-        <li>interfaz amigable</li>
-      </ul>
+      </details>
+      </section>
+      </article>
       </div>
+    {/*--------- TRABAJO 1--------*/}
+
+
+  {/*--------- TRABAJO 2--------*/}
+    <div className='trabajo' >
+     <section className='links_info'>
+     {/*--------- Nombre del proyecto ---------*/}
+      <p className='proyecto_nombre' style={{"background-color": "rgb(167, 3, 30)"}}>Proyecto 2 <i className="fa-solid fa-briefcase"></i></p> 
+     {/*--------- Deploy ---------*/}
+    <a style={{"color": "aliceblue",'background': 'linear-gradient(rgb(167, 3, 30), rgb(40, 1, 7))'}} className='link' href="https://illustrious-cat-fb5127.netlify.app" target='_blank'><i className="fa-solid fa-eye"></i> </a>
+    {/*--------- Deploy ---------*/}
+    <a style={{"color": "rgb(167, 3, 30)"}} className='link' href="https://github.com/rodo555666"  target="_blank"><i className="fa-brands fa-square-github"></i></a>
+    </section>
+      <article className='carpeta' style={{'background': 'linear-gradient(rgb(167, 3, 30), rgb(40, 1, 7))'}}>
+      <section className='pagina'>
+      <img className='img_largo' src="re_largo.jpg" alt="prueba" />
+      {/*--------- DETAILS---------*/}
+      <details id='det' style={{"background-color": "rgb(167, 3, 30)"}} > <summary></summary>
+      <img className='img_corto' src="reproductor.jpg" alt="prueba" />
+      <img className='img_corto' src="reproductor.jpg" alt="prueba" />
+      <img className='img_corto' src="reproductor.jpg" alt="prueba" />
+      </details>
+      </section>
+      </article>
+      </div>
+    {/*--------- TRABAJO 2--------*/}
+
+
+
+
+   
+
+
+
 
       
+      </section>
+      
   
-    </section> */}
+  
        <footer>
       <a href="https://mail.google.com/mail/u/0/?tab=wm#inbox?compose=GTvVlcSPFdTFsRdZrnJRzGpxjXFqtchZtVjnpPVQCKmnjRMzCdXBhwqfdFpncQknSSRDwBvrWzfMV"  target="_blank"><i className="fa-solid fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/rodolfo-a-cabrera-33649a208/"  target="_blank"><i className="fa-brands fa-linkedin"></i></a>
