@@ -17,7 +17,8 @@ const YoPersonal = () => {
        <a href=""><i className="fa-solid fa-language"></i></a> 
       <a href="#conocimiento"><i className="fa-regular fa-lightbulb"></i><i className="fa-solid fa-angle-down"></i></a>
       {/* <a href="#portafolio"><i className="fa-solid fa-briefcase"></i><i className="fa-solid fa-angle-down"></i></a>  */}
-      <button><i className="fa-solid fa-file-arrow-down"></i> cv</button></section>
+      {/* <button><i className="fa-solid fa-file-arrow-down"></i> cv</button> */}
+      </section>
       </header>
     
      <div className='divisor'> </div>
